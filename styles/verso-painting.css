@@ -1,0 +1,58 @@
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+}
+
+.home-link {
+  position: fixed;
+  top: 30px;
+  left: 30px;
+}
+
+.sidebar {
+  position: fixed;
+  top: 130px;
+  left: 30px;
+  margin-right: 100px;
+}
+
+.right-section {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  margin: auto;
+  margin-top: 70px;
+  margin-bottom: 200px;
+  padding: 40px;
+}
+
+.content {
+  display: flex;
+  margin-top: 100px;
+  flex-direction: column;
+  margin: auto;
+}
+
+.content img {
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.document {
+  display: flex;
+  height: 200px;
+  overflow: scroll;
+}
+
+.document img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}

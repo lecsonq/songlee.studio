@@ -1,0 +1,43 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+}
+
+.home-link {
+  position: fixed;
+  top: 30px;
+  left: 30px;
+}
+
+.sidebar {
+  position: fixed;
+  top: 130px;
+  left: 30px;
+  margin-right: 100px;
+}
+
+.right-section {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  max-width: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.content img {
+  width: 700px;
+  object-fit: contain;
+  height: auto;
+  max-width: 100%;
+}
