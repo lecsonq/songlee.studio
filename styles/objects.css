@@ -44,8 +44,6 @@ ul {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 90px;
   row-gap: 50px;
-  margin-left: 50px;
-  margin-right: 50px;
   margin-bottom: 200px;
 }
 
