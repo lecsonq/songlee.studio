@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'authentic sans 90';
+  font-family: 'AUTHENTICSans-90';
   src: url(AUTHENTICSans-90.otf) format('opentype');
 }
 
@@ -11,7 +11,7 @@ body {
 }
 
 h1 {
-  font-family: 'authentic sans 90';
+  font-family: 'AUTHENTICSans-90';
   font-weight: 200;
   font-size: 17px;
   letter-spacing: 0.035em;
@@ -20,14 +20,14 @@ h1 {
 }
 
 h2 {
-  font-family: 'authentic sans 90';
+  font-family: 'AUTHENTICSans-90';
   font-weight: 600;
   font-size: 12px;
   margin-bottom: 15px;
 }
 
 p {
-  font-family: 'authentic sans 90';
+  font-family: 'AUTHENTICSans-90';
   color: rgba(0, 0, 0, 0.7);
   font-size: 12px;
   line-height: 17px;
@@ -41,7 +41,7 @@ a {
 a:active {
   display: inline-block;
   color: rgba(0, 0, 0, 0.7);
-  font-family: 'authentic sans 90';
+  font-family: 'AUTHENTICSans-90';
   line-height: 16px;
   text-decoration: none;
 }
@@ -49,7 +49,7 @@ a:active {
 .page-title {
   display: inline-block;
   color: rgba(0, 0, 0, 0.7);
-  font-family: 'authentic sans 90';
+  font-family: 'AUTHENTICSans-90';
   font-size: 12px;
   line-height: 16px;
   text-decoration: none;
@@ -61,7 +61,7 @@ a:active {
 }
 
 figcaption {
-  font-family: 'authentic sans 90';
+  font-family: 'AUTHENTICSans-90';
   color: rgba(0, 0, 0, 0.7);
   font-size: 10px;
   margin-top: 6px;
