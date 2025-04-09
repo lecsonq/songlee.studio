@@ -39,8 +39,7 @@ a {
 }
 
 .page a.active {
-  box-shadow: 0px 0px 0px 0.8px rgba(255, 103, 103, 0.987);
-  background-color: rgba(255, 207, 203, 0.25);
+  box-shadow: 0px 0px 0px 0.8px rgba(255, 76, 59, 0.987);
 }
 
 a:active {
