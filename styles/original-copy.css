@@ -37,7 +37,8 @@ ul {
 }
 
 .content img,
-.two-columns img {
+.two-columns img,
+.three-columns img {
   max-width: 100%;
   height: auto;
 }
@@ -45,5 +46,11 @@ ul {
 .two-columns {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.three-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 40px;
 }
