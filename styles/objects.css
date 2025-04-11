@@ -42,9 +42,9 @@ ul {
 .four-columns {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 60px;
-  margin-left: 30px;
-  margin-right: 30px;
+  gap: 100px;
+  margin-left: 40px;
+  margin-right: 40px;
   margin-bottom: 200px;
 }
 
