@@ -42,14 +42,15 @@ ul {
 .four-columns {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 40px;
+  gap: 60px;
+  margin-left: 30px;
+  margin-right: 30px;
   margin-bottom: 200px;
 }
 
 .four-columns img {
   max-width: 100%;
   height: auto;
-  padding: 10px;
 }
 
 .content {
