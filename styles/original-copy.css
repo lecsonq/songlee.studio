@@ -27,10 +27,12 @@ ul {
   display: flex;
   flex-direction: column;
   margin: auto;
+  align-items: center;
 }
 
 .content {
   display: flex;
+  flex: 1;
   flex-direction: column;
   margin-top: 100px;
   margin: auto;
@@ -47,6 +49,7 @@ ul {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
+  max-width: fit-content;
 }
 
 .three-columns {
