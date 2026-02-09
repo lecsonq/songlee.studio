@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>sculpted image</title>
+    <link rel="stylesheet" href="styles/sub-index.css">
+  </head>
+  <body>
+    <div class="page">
+      <nav class="menu">
+        <div class="dropdown">
+            <a href="objects.html">objects <span class="small-letter">2021</span></a>
+            <a href="runners.html">runners <span class="small-letter">2021</span></a>
+        </div>
+      </nav>
+    </div>
+  <footer class="footer">
+    © <span id="year"></span> Song Lee
+  </footer>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+  </body>
+</html>

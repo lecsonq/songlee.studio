@@ -1,0 +1,93 @@
+@font-face {
+  font-family: 'AuthenticSans-60';
+  src: url(AUTHENTICSans-60.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'AUTHENTICSans-90';
+  src: url(AUTHENTICSans-90.otf) format('opentype');
+}
+
+body {
+  font-family: 'AuthenticSans-60';
+  font-size: 13px;
+  padding: 10px;
+}
+
+.dropdown-content {
+  position: relative;
+  top: 0%;
+  left: 70%;
+  transform: translateX(-50%);
+  min-width: 200px;
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+  background: white;
+  border: none;
+  transition: opacity 0.05s ease;
+}
+
+.dropdown-content a {
+  font-size: 13px;
+  color: rgb(67, 67, 67);
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: none;
+  transition: 0.2ms;
+  border: none;
+}
+
+.dropdown:hover .dropdown-content {
+  opacity: 1;
+  pointer-events: auto;
+  visibility: visible;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #ffffff;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+}
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+color: rgb(67, 67, 67);
+text-decoration: none;
+display: block;
+}
+
+a:visited {
+  color: rgb(67, 67, 67);
+  text-decoration: none;
+}
+
+.footer {
+  font-family: 'AuthenticSans-90';
+  padding: 0;
+  font-size: 11px;
+  position: fixed;
+  bottom: 10px;
+  left: -10px;
+  width: 100%;
+  text-align: right;
+  letter-spacing: 0.05em;
+  color: rgb(67, 67, 67);
+}
+
+
+.small-letter {
+  font-size: 9px;
+}

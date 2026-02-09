@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>home</title>
+    <link rel="stylesheet" href="styles/general.css">
+    </head>
+    <body>
+        <div class="page" style="margin-top: 250px; margin-left: 50px;">
+            <nav class="menu">
+                <div class="dropdown">
+                    <button class="dropbtn">page</button>
+                    <div class="dropdown-content">
+                    <a href="on-canvas.html">on canvas</a>
+                    <a href="on-paper.html">on paper</a>
+                    <a href="jpeg.html">jpeg</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">object</button>
+                    <div class="dropdown-content">
+                    <a href="sculpted image.html">sculpted image</a>
+                    <a href="painted image.html">painted image</a>
+                    <a href="printed image.html">printed image</a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <button class="dropbtn">space</button>
+                    <div class="dropdown-content">
+                    <a href="painted-image-in-space.html">painted image in space</a>
+                    <a href="printed-image-in-space.html">printed image in space</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <footer class="footer">
+        © <span id="year"></span> Song Lee
+        </footer>
+        <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+        </script>
+    </body>
+</html>
