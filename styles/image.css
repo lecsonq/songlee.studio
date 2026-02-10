@@ -87,14 +87,6 @@ figcaption {
   text-align: right;
 }
 
-.about-link:link,
-.about-link:visited {
-  text-decoration: underline 2px dotted rgba(0, 0, 0, 0.7);
-  text-underline-offset: 3px;
-  position: fixed;
-  bottom: 12px;
-}
-
 .footer {
   font-family: 'AuthenticSans-90';
   padding: 0;
