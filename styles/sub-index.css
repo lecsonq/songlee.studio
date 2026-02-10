@@ -66,7 +66,7 @@ body {
 a {
 color: rgb(67, 67, 67);
 text-decoration: none;
-display: block;
+display: inline-block;
 }
 
 a:visited {
