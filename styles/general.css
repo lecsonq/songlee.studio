@@ -100,6 +100,19 @@ a:visited {
   color: rgb(67, 67, 67);
 }
 
+.about {
+  font-family: 'AuthenticSans-90';
+  padding: 0;
+  font-size: 11px;
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  width: 100%;
+  text-align: left;
+  letter-spacing: 0.035em;
+  color: rgb(67, 67, 67);
+}
+
 body {
   padding: 30px;
   margin:0;
@@ -152,14 +165,6 @@ figcaption {
   margin-top: 6px;
   text-align: right;
   margin-bottom: 400px;
-}
-
-.about-link:link,
-.about-link:visited {
-  text-decoration: underline 2px dotted rgba(0, 0, 0, 0.7);
-  text-underline-offset: 3px;
-  position: fixed;
-  bottom: 12px;
 }
 
 .document {
