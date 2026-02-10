@@ -180,3 +180,14 @@ figcaption {
   gap: 20px;
   padding: 0px 30px;
 }
+
+a.back-link {
+  text-decoration: none;
+  font-size: 13px;
+  letter-spacing: 0.2em;
+  color: rgba(0, 0, 0, 0.7);
+  font-family: futura;
+  position: fixed;
+  top: 15px;
+  left: 15px;
+}
