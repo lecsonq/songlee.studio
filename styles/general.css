@@ -97,7 +97,8 @@ a:visited {
   width: 100%;
   text-align: right;
   letter-spacing: 0.05em;
-  color: rgb(67, 67, 67);
+  color: rgba(0, 0, 0, 0.7);
+  display: inline-block;
 }
 
 .about {
@@ -110,8 +111,10 @@ a:visited {
   width: 100%;
   text-align: left;
   letter-spacing: 0.035em;
-  color: rgb(67, 67, 67);
+  color:  rgba(0, 0, 0, 0.7);
+  display: inline-block;
 }
+
 
 body {
   padding: 30px;

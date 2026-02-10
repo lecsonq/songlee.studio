@@ -121,5 +121,6 @@ a.back-link {
   width: 100%;
   text-align: left;
   letter-spacing: 0.035em;
-  color: rgb(67, 67, 67);
+  color:  rgba(0, 0, 0, 0.7);
+  display: inline-block;
 }
