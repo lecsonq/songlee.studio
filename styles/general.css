@@ -77,13 +77,13 @@ body {
 }
 
 a {
-color: rgb(67, 67, 67);
+color: rgba(0, 0, 0, 0.7);
 text-decoration: none;
 display: inline-block;
 }
 
 a:visited {
-  color: rgb(67, 67, 67);
+  color: rgba(0, 0, 0, 0.7);
   text-decoration: none;
 }
 
