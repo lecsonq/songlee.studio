@@ -1,0 +1,30 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  display: grid;
+}
+
+.content {
+  display: flex;
+  margin-top: 100px;
+  flex-direction: column;
+  margin: auto;
+}
+
+.content img {
+  max-width: 100%;
+  height: auto;
+  margin:auto;
+}
+
+.contact-info {
+  margin-bottom: 80px;
+}
+
+.section {
+  margin-bottom: 50px;
+}
