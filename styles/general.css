@@ -30,7 +30,7 @@ body {
 .dropdown-content {
   position: relative;
   top: 8%;
-  left: 58%;
+  left: 52%;
   transform: translateX(-50%);
   min-width: 200px;
   opacity: 0;
