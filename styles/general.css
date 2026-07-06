@@ -91,6 +91,13 @@ body {
   justify-content: center;
 }
 
+.page-home {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 a {
 color: rgba(0, 0, 0, 0.7);
 text-decoration: none;
