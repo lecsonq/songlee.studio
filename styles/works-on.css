@@ -7,6 +7,8 @@ ul {
 .page {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .home-link {
@@ -16,9 +18,10 @@ ul {
 }
 
 .content {
-  display: flex;
+  display: inline-block;
   margin-top: 100px;
   flex-direction: column;
+  margin-bottom: 50px;
 }
 
 .content img {

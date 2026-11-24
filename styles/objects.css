@@ -5,21 +5,16 @@ ul {
 }
 
 .page {
-  display: grid;
-  grid-template-columns: 250px 1fr;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .home-link {
   position: fixed;
   top: 30px;
   left: 30px;
-}
-
-.sidebar {
-  position: fixed;
-  top: 130px;
-  left: 30px;
-  margin-right: 100px;
 }
 
 .page-title{
@@ -29,14 +24,6 @@ ul {
   font-size: 12px;
   line-height: 16px;
   text-decoration: none;
-}
-
-.right-section {
-  padding-top: 100px;
-  display: flex;
-  flex-direction: column;
-  column-gap: 50px;
-  margin: auto;
 }
 
 .four-columns {
@@ -53,11 +40,19 @@ ul {
   height: auto;
 }
 
+figcaption {
+  font-family: 'AuthenticSans-90';
+  font-size: 11px;
+  color: rgba(0, 0, 0, 0.7);
+  margin-top: 5px;
+  text-align: right;
+}
+
 .content {
   display: flex;
   margin-top: 100px;
   flex-direction: column;
-  margin: auto;
+  margin-bottom: 200px;
 }
 
 .content img {
