@@ -16,35 +16,7 @@ body {
   font-size: 50px;
 }
 
-@media (max-width: 768px) {
-  body {
-    font-size: 18px;
-  }
-  .menu {
-    display: flex;
-    flex-direction: column;
-  }
-  .dropdown {
-    font-size: 3em;
-    margin-bottom: 50px;
-  }
-  }
-
-@media (max-width: 768px) {
-  body {
-    font-size: 18px;
-  }
-  .menu {
-    display: flex;
-    flex-direction: column;
-  }
-  .dropdown {
-    font-size: 3em;
-    margin-bottom: 50px;
-  }
-}
-
-  .dropbtn {
+.dropbtn {
   font-weight: light;
   font-family: 'AuthenticSans-60';
   background-color: white;
