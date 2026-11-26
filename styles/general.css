@@ -210,18 +210,23 @@ a.back-link {
 
 @media (max-width: 480px) {
 
-  .menu {
-    display: flex;
-    flex-direction: column;
+  body {
+    padding: 0px;
+    margin:0;
+    height: fit-content;
   }
+
+  .menu {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;}
   
   .dropdown {
     font-size: 1.2em;
-    margin-bottom: 60px;
+    margin: 0;
   }
 
   .dropdown-content {
-  margin-top: 20px;
+  margin-top: 10px;
   position: relative;
   top: 10%;
   left: 60%;
@@ -234,15 +239,18 @@ a.back-link {
   border: none;
   transition: opacity 0.05s ease;
   padding: 0;
+  margin-bottom: 10px;
   }
 
   .dropbtn {
     font-size: 7vh;
-    padding: 10px 20px;
+    margin: 0;
+    padding: 0;
   }
 
   .dropdown-content a {
     font-size: 17px;
+    margin: 0;
   }
 
   .page-home {
@@ -255,7 +263,7 @@ a.back-link {
   }
 
   .about, .footer {
-    font-size: 15px;
+    font-size: 12px;
   }
 
   a.back-link {
