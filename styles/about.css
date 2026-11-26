@@ -267,10 +267,6 @@ a.back-link {
     line-height: 16px;
   }
 
-  a {
-    font-size: 12px;
-  }
-
   a.back-link {
     font-size: 20px;
   }
@@ -281,6 +277,6 @@ a.back-link {
   }
   
   .about, .footer {
-    font-size: 12px;
+    font-size: 2vh;
   }
 }

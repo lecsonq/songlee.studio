@@ -26,9 +26,7 @@ body {
   background-color: white;
   color: rgba(16, 16, 16, 0.8);
   font-size: 50px;
-  height: 60px;
   border: none;
-  margin-bottom: 7px;
 }
 
 .dropdown-content {
@@ -212,24 +210,33 @@ a.back-link {
 
   body {
     padding: 0px;
-    margin:0;
+    margin: 0;
     height: fit-content;
   }
 
   .menu {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;}
+    display: flex;
+    flex-direction: column;
+  }
   
   .dropdown {
     font-size: 1.2em;
-    margin: 0;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .dropbtn {
+    font-size: 6.5vh;
+    padding: 0;
   }
 
   .dropdown-content {
-  margin-top: 10px;
   position: relative;
-  top: 10%;
-  left: 60%;
+  top: 3%;
+  left: 50%;
   transform: translateX(-50%);
   min-width: 200px;
   opacity: 0;
@@ -239,18 +246,10 @@ a.back-link {
   border: none;
   transition: opacity 0.05s ease;
   padding: 0;
-  margin-bottom: 10px;
-  }
-
-  .dropbtn {
-    font-size: 7vh;
-    margin: 0;
-    padding: 0;
   }
 
   .dropdown-content a {
-    font-size: 17px;
-    margin: 0;
+    font-size: 3vh;
   }
 
   .page-home {
@@ -263,10 +262,10 @@ a.back-link {
   }
 
   .about, .footer {
-    font-size: 12px;
+    font-size: 2vh;
   }
 
   a.back-link {
-    font-size: 20px;
+    font-size: 2vh;
   }
 }
