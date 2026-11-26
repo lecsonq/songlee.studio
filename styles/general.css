@@ -76,6 +76,8 @@ body {
   min-height: 100vh;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .page-home {
@@ -83,6 +85,19 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.content {
+  display: inline-block;
+  margin-top: 100px;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.content img {
+  max-width: 100%;
+  height: auto;
+  margin: auto;
 }
 
 a {
@@ -201,71 +216,4 @@ a.back-link {
   position: fixed;
   top: 15px;
   left: 15px;
-}
-
-
-/* mobile */
-
-@media (max-width: 480px) {
-
-  body {
-    padding: 0px;
-    margin: 0;
-    height: fit-content;
-  }
-
-  .menu {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .dropdown {
-    font-size: 1.2em;
-    height: 150px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-  }
-
-  .dropbtn {
-    font-size: 6.5vh;
-    padding: 0;
-  }
-
-  .dropdown-content {
-  position: relative;
-  top: 3%;
-  left: 50%;
-  transform: translateX(-50%);
-  min-width: 200px;
-  opacity: 0;
-  pointer-events: none;
-  visibility: hidden;
-  background: white;
-  border: none;
-  transition: opacity 0.05s ease;
-  padding: 0;
-  }
-
-  .dropdown-content a {
-    font-size: 3vh;
-  }
-
-  .page-home {
-  min-height: 100vh;
-  display: flex;
-  }
-
-  body {
-    font-size: 1px;
-  }
-
-  .about, .footer {
-    font-size: 2vh;
-  }
-
-  a.back-link {
-    font-size: 2vh;
-  }
 }

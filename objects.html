@@ -2,9 +2,37 @@
 <html>
   <head>
     <title>objects</title>
-    <link rel="stylesheet" href="styles/objects.css">
     <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/mobile-responsive.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      .four-columns {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      gap: 60px;
+      margin-left: 60px;
+      margin-right: 60px;
+      margin-bottom: 200px;
+    }
+
+    .four-columns img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .content {
+      display: flex;
+      margin-top: 100px;
+      flex-direction: column;
+      margin-bottom: 200px;
+    }
+
+    .content img {
+      max-width: 100%;
+      height: auto;
+      margin:auto;
+      object-fit: contain;
+    }</style>
   </head>
   <body> 
     <a class="back-link" href="2021-testament.html">←</a>
