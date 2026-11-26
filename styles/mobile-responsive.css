@@ -21,9 +21,11 @@
   }
 
   .content {
-    margin: 15px;
-    margin-right: 50px;
-    margin-left: 50px;
+    margin: 0;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: center;
   }
   
   .menu {
@@ -62,11 +64,11 @@
   }
 
   .dropdown-content a {
-    font-size: 3vh;
+    font-size: vh;
   }
 
   .about, .footer {
-    font-size: 2vh;
+    font-size: 2.2vh;
   }
 
   a.back-link {
@@ -95,5 +97,18 @@
   .extra-link {
     font-size: 15px;
     margin-top: 4px;
+  }
+
+  .four-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  }
+
+  .four-columns img {
+    padding: 30px;
+    max-width: 100%;
+    height: auto;
   }
 }

@@ -8,6 +8,20 @@
   src: url(AUTHENTICSans-60.otf) format('opentype');
 }
 
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
 body {
   font-family: 'AuthenticSans-60';
   padding: 0px;
@@ -78,6 +92,7 @@ body {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  padding: 40px;
 }
 
 a {
@@ -124,6 +139,19 @@ body {
   margin:0;
 }
 
+.content {
+  margin: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+}
+
+.content img {
+    max-width: 100%;
+    height: auto;
+}
+
 h1 {
   font-family: 'AUTHENTICSans-90';
   font-weight: 200;
@@ -156,12 +184,15 @@ figcaption {
   color: rgba(0, 0, 0, 0.7);
   font-size: 10px;
   text-align: right;
+  margin-top: 5px;
 }
 
 .document {
   display: flex;
   height: 200px;
   overflow: scroll;
+  margin-bottom: 150px;
+  margin-top: 150px;
 }
 
 .document img {
@@ -174,6 +205,7 @@ figcaption {
   display: flex;
   flex-direction: row;
   gap: 10px;
+  align-items: flex-start;
 }
 
 a.back-link {
