@@ -61,15 +61,16 @@ body {
   body {
     font-size: 18px;
   }
+
   .menu {
     display: flex;
     flex-direction: column;
   }
+
   .dropdown {
     font-size: 3em;
     margin-bottom: 50px;
   }
-}
 
   .dropbtn {
   font-weight: light;
@@ -80,7 +81,7 @@ body {
   height: 60px;
   border: none;
   margin: 0;
-
+  }
 }
 
 .dropdown-content {
