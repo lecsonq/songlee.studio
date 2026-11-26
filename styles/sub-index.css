@@ -10,8 +10,7 @@
 
 body {
   font-family: 'AuthenticSans-60';
-  font-size: 15px;
-  padding: 10px;
+  font-size: 17px;
 }
 
 .dropdown-content {
@@ -74,20 +73,6 @@ a:visited {
   text-decoration: none;
 }
 
-.footer {
-  font-family: 'AuthenticSans-90';
-  padding: 0;
-  font-size: 11px;
-  position: fixed;
-  bottom: 10px;
-  left: -10px;
-  width: 100%;
-  text-align: right;
-  letter-spacing: 0.05em;
-  color: rgb(67, 67, 67);
-}
-
-
 .small-letter {
   font-size: 9px;
 }
@@ -115,4 +100,32 @@ a.back-link {
   letter-spacing: 0.035em;
   color:  rgba(0, 0, 0, 0.7);
   display: inline-block;
+}
+
+.footer {
+  font-family: 'AuthenticSans-90';
+  padding: 0;
+  font-size: 11px;
+  position: fixed;
+  bottom: 10px;
+  left: -10px;
+  width: 100%;
+  text-align: right;
+  letter-spacing: 0.05em;
+  color: rgb(67, 67, 67);
+}
+
+
+@media (max-width: 480px) {
+  body {
+    font-size: 23px;
+  }
+
+  a.back-link {
+    font-size: 20px;
+  }
+
+  .about, .footer {
+    font-size: 15px;
+  }
 }

@@ -229,6 +229,15 @@ a.back-link {
   left: 15px;
 }
 
+.about-text {
+  font-family: 'AUTHENTICSans-90';
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.7);
+  line-height: 17px;
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
 .extra-link {
   font-family: 'AUTHENTICSans-90';
   text-decoration: none;
@@ -238,4 +247,40 @@ a.back-link {
 
 .extra-link:hover {
   background-color: rgba(172, 194, 185, 0.25);
+}
+
+/* mobile */
+@media (max-width: 480px) {
+  h2 {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .about-text {
+    margin-top: 25px;
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  p{
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  a {
+    font-size: 12px;
+  }
+
+  a.back-link {
+    font-size: 20px;
+  }
+
+  .extra-link {
+    font-size: 15px;
+    margin-top: 4px;
+  }
+  
+  .about, .footer {
+    font-size: 15px;
+  }
 }

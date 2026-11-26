@@ -13,7 +13,11 @@ body {
   padding: 0px;
   justify-content: center;
   place-items: center;
-  font-size: 50px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
 }
 
 .dropbtn {
@@ -21,11 +25,10 @@ body {
   font-family: 'AuthenticSans-60';
   background-color: white;
   color: rgba(16, 16, 16, 0.8);
-  font-size: 1em;
+  font-size: 50px;
   height: 60px;
   border: none;
-  margin: 0;
-
+  margin-bottom: 7px;
 }
 
 .dropdown-content {
@@ -44,7 +47,7 @@ body {
 }
 
 .dropdown-content a {
-  font-size: 13px;
+  font-size: 16px;
   color: rgba(0, 0, 0, 0.7);
   text-decoration: none;
   display: block;
@@ -132,7 +135,7 @@ body {
 h1 {
   font-family: 'AUTHENTICSans-90';
   font-weight: 200;
-  font-size: 17px;
+  font-size: 15px;
   letter-spacing: 0.035em;
 }
 
@@ -147,25 +150,12 @@ p {
   font-family: 'AUTHENTICSans-90';
   color: rgba(0, 0, 0, 0.7);
   font-size: 12px;
-  line-height: 17px;
+  line-height: 15px;
 }
 
 a {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.7);
-}
-
-.page-title {
-  display: inline-block;
-  color: rgba(0, 0, 0, 0.7);
-  font-family: 'AUTHENTICSans-90';
-  font-size: 12px;
-  line-height: 16px;
-  text-decoration: none;
-}
-
-.page-title:hover {
-  color: rgb(255, 255, 255);
 }
 
 figcaption {
@@ -213,4 +203,62 @@ a.back-link {
   position: fixed;
   top: 15px;
   left: 15px;
+}
+
+
+/* mobile */
+
+@media (max-width: 480px) {
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .dropdown {
+    font-size: 1.2em;
+    margin-bottom: 60px;
+  }
+
+  .dropdown-content {
+  margin-top: 20px;
+  position: relative;
+  top: 10%;
+  left: 60%;
+  transform: translateX(-50%);
+  min-width: 200px;
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+  background: white;
+  border: none;
+  transition: opacity 0.05s ease;
+  padding: 0;
+  }
+
+  .dropbtn {
+    font-size: 7vh;
+    padding: 10px 20px;
+  }
+
+  .dropdown-content a {
+    font-size: 17px;
+  }
+
+  .page-home {
+  min-height: 100vh;
+  display: flex;
+  }
+
+  body {
+    font-size: 1px;
+  }
+
+  .about, .footer {
+    font-size: 15px;
+  }
+
+  a.back-link {
+    font-size: 20px;
+  }
 }
