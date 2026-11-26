@@ -1,4 +1,3 @@
-
 /* mobile */
 
 @media (max-width: 480px) {
@@ -35,7 +34,7 @@
   }
   
   .dropdown {
-    font-size: 2.2vh;
+    font-size: 2vh;
     height: 150px;
     display: inline-block;
     margin-bottom: 3px;
@@ -65,11 +64,11 @@
   }
 
   .dropdown-content a {
-    font-size: 2.2vh;
+    font-size: 2vh;
   }
 
   .about, .footer {
-    font-size: 2.2vh;
+    font-size: 2vh;
   }
 
   a.back-link {
