@@ -80,13 +80,6 @@ body {
   align-items: center;
 }
 
-.page-home {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .content {
   display: inline-block;
   margin-top: 100px;
@@ -194,17 +187,6 @@ figcaption {
   display: flex;
   flex-direction: row;
   gap: 10px;
-}
-
-@media (max-width: 768px) {
-  .multiple-images {
-    flex-direction: column;
-  }
-  .content {
-    margin: 15px;
-    margin-right: 50px;
-    margin-left: 50px;
-  }
 }
 
 a.back-link {
