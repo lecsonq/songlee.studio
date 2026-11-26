@@ -73,6 +73,16 @@ a:visited {
   text-decoration: none;
 }
 
+a.sub-title {
+color: rgba(0, 0, 0, 0.7);
+text-decoration: none;
+display: inline-block;
+}
+
+a.sub-title:hover {
+  background-color: rgba(172, 194, 185, 0.25)
+}
+
 .small-letter {
   font-size: 9px;
 }

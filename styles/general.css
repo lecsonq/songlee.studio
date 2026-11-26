@@ -19,14 +19,11 @@ html, body {
 }
 
 body {
-    overflow-x: hidden;
-}
-
-body {
   font-family: 'AuthenticSans-60';
   padding: 0px;
   justify-content: center;
   place-items: center;
+  overflow-x: hidden;
 }
 
 .dropdown {
@@ -104,6 +101,16 @@ display: inline-block;
 a:visited {
   color: rgba(0, 0, 0, 0.7);
   text-decoration: none;
+}
+
+a.sub-title {
+color: rgba(0, 0, 0, 0.7);
+text-decoration: none;
+display: inline-block;
+}
+
+a.sub-title:hover {
+  background-color: rgba(172, 194, 185, 0.25)
 }
 
 .footer {
