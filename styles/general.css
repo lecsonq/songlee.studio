@@ -51,8 +51,7 @@ body {
     color:  rgba(0, 0, 0, 0.7);
     display: inline-block;
   }
-
-  }
+}
 
 @media (max-width: 768px) and (min-width: 376px) {
   body {
@@ -66,7 +65,7 @@ body {
     font-size: 3em;
     margin-bottom: 50px;
   }
-  }
+}
 
   .dropbtn {
   font-weight: light;
