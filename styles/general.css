@@ -16,6 +16,27 @@ body {
   font-size: 50px;
 }
 
+@media (max-width: 375px) {
+  body {
+    font-size: 100px;
+  }
+  .menu {
+    display: flex;
+    flex-direction: column;
+  }
+  .dropdown {
+    font-size: 1.5em;
+    margin-bottom: 50px;
+  }
+
+
+
+
+
+
+
+  }
+
 @media (max-width: 768px) {
   body {
     font-size: 18px;
@@ -201,17 +222,16 @@ figcaption {
   object-fit: contain;
 }
 
-.three-columns {
+.multiple-images {
   display: flex;
   flex-direction: row;
   gap: 10px;
 }
 
 @media (max-width: 768px) {
-  .three-columns {
+  .multiple-images {
     flex-direction: column;
   }
-
   .content {
     margin: 15px;
     margin-right: 50px;
