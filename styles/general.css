@@ -56,7 +56,7 @@ body {
 }
 
 .dropdown-content a {
-  font-size: 16px;
+  font-size: 14px;
   color: rgba(0, 0, 0, 0.7);
   text-decoration: none;
   display: block;
@@ -116,7 +116,7 @@ a.sub-title:hover {
 .footer {
   font-family: 'AuthenticSans-90';
   padding: 0;
-  font-size: 11px;
+  font-size: 1.5vh;
   position: fixed;
   bottom: 10px;
   left: -10px;
@@ -130,7 +130,7 @@ a.sub-title:hover {
 .about {
   font-family: 'AuthenticSans-90';
   padding: 0;
-  font-size: 11px;
+  font-size: 1.5vh;
   position: fixed;
   bottom: 10px;
   left: 10px;
@@ -217,7 +217,7 @@ figcaption {
 
 a.back-link {
   text-decoration: none;
-  font-size: 13px;
+  font-size: 15px;
   letter-spacing: 0.2em;
   color: rgba(0, 0, 0, 0.7);
   font-family: futura;
