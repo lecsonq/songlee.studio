@@ -38,6 +38,8 @@ body {
   color: rgba(16, 16, 16, 0.8);
   font-size: 50px;
   border: none;
+  width: min-content;
+  height: min-content;
 }
 
 .dropdown-content {
