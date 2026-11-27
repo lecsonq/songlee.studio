@@ -215,30 +215,26 @@ a.back-link {
 
 /* about & footer */
 
-.footer {
-  font-family: 'AuthenticSans-90';
-  padding: 0;
-  font-size: 12px;
+.about, .footer {
   position: fixed;
+  display: inline-block;
+  padding: 0;
+  font-family: 'AuthenticSans-90';
+  font-size: 12px;
+  color:  rgba(0, 0, 0, 0.7);
+  width: 100%;
+}
+
+.footer {
   bottom: 10px;
   left: -10px;
-  width: 100%;
   text-align: right;
-  letter-spacing: 0.05em;
-  color: rgba(0, 0, 0, 0.7);
-  display: inline-block;
+  letter-spacing: 0.04em;
 }
 
 .about {
-  font-family: 'AuthenticSans-90';
-  padding: 0;
-  font-size: 12px;
-  position: fixed;
   bottom: 10px;
   left: 10px;
-  width: 100%;
   text-align: left;
-  letter-spacing: 0.035em;
-  color:  rgba(0, 0, 0, 0.7);
-  display: inline-block;
+  letter-spacing: 0.09em;
 }
