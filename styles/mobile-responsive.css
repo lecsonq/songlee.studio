@@ -82,7 +82,7 @@ body {
   }
 
   .dropbtn {
-    font-size: 35px;
+    font-size: 36px;
     padding: 0;
   }
 
@@ -101,7 +101,7 @@ body {
   }
 
   .dropdown-content a {
-    font-size: 14px;
+    font-size: 12px;
   }
 
 /* back-link */

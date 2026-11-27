@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        const desktopMode = params.get("view") === "desktop";
+
+        if (window.matchMedia("(max-width: 767px)").matches && !desktopMode) {
+            window.location.replace("mobile.html");
+        }
+    </script>
     <title>home</title>
     <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/mobile-responsive.css">

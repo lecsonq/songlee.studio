@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        const mobileMode = params.get("view") === "mobile";
+
+        if (window.matchMedia("(min-width: 768px)").matches && !mobileMode) {
+            window.location.replace("index.html");
+        }
+    </script>
+    <title>home</title>
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/mobile-responsive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body style="margin:0">
+        <div class="page">
+            <nav class="menu">
+                <div class="dropdown">
+                    <button class="dropbtn">space</button>
+                    <div class="dropdown-content">
+                        <a href="2021-testament.html">testament</a>   
+                        <a href="2019-mille-feuille.html">mille feuille</a>                     
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">object</button>
+                    <div class="dropdown-content">
+                       <a href="sculpted-image.html">sculpted image</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">page</button>
+                    <div class="dropdown-content">
+                        <a href="III.html">III</a>
+                        <a href="II.html">II</a>
+                        <a href="I.html">I</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <footer class="footer">
+            © <span id="year"></span> Song Lee
+        </footer>
+        <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+        </script>
+        <footer class="about">
+            <a href="about.html">ABOUT</a>
+        </footer>
+    </body>
+</html>
