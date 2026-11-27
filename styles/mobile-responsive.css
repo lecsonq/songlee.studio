@@ -43,6 +43,8 @@
   .dropbtn {
     font-size: 55px;
     padding: 0;
+    width: min-content;
+    height: min-content;
   }
 
   .dropdown-content {
