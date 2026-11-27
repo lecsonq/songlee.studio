@@ -3,12 +3,13 @@
 }
 
 html, body {
-    width: 100%;
     margin: 0;
     padding: 0;
 }
 
-
+::-webkit-scrollbar {
+    display: none;
+}
 
 /* fonts */
 
@@ -47,9 +48,9 @@ p {
 
 body {
   font-family: 'AuthenticSans-60';
-  padding: 30px;
   justify-content: center;
   place-items: center;
+  overflow-y: auto;
   overflow-x: hidden;
 }
 
@@ -181,12 +182,11 @@ a:visited {
 .four-columns {
 display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr;
-margin-bottom: 20px;
-margin-top: 20px;
+margin: 0px 30px;
 }
 
 .four-columns img {
-  padding: 30px;
+  padding: 50px;
   max-width: 100%;
   height: auto;
 }
