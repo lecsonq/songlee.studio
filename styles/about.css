@@ -1,7 +1,23 @@
 /* page */
 
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
 body {
   margin: 23px;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 /* fonts */
