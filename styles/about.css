@@ -21,6 +21,12 @@ body {
 }
 
 /* fonts */
+.noto-sans-symbols-2-regular {
+  font-family: "Noto Sans Symbols 2", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  font-style: normal;
+}
 
 @font-face {
   font-family: 'AUTHENTICSans-90';
@@ -81,7 +87,7 @@ p {
   line-height: 17px;
   max-width: 500px;
   margin-top: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .about, .footer {
